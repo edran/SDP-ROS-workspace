@@ -5,7 +5,7 @@ find_package(catkin
   REQUIRED COMPONENTS
   rospy
   std_msgs
-  cv_bridge
+#  cv_bridge
 )
 
 catkin_python_setup()
@@ -14,7 +14,7 @@ catkin_package(
   CATKIN_DEPENDS
   rospy
   std_msgs
-  cv_bridge
+#  cv_bridge
 )
 
 install(
