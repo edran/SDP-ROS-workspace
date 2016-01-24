@@ -5,7 +5,7 @@ from std_msgs.msg import String
 class SDPSubscriber(object):
 
     def __init__(self):
-        self.sub = rospy.Subscriber("sdp_ros_fib",
+        self.sub = rospy.Subscriber("ros_sdp_fib",
                                     String,
                                     self.callback)
 

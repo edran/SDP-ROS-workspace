@@ -10,7 +10,7 @@ fib = lambda n: n if n < 2 else fib(n-1) + fib(n-2)
 class SDPPublisher(object):
 
     def __init__(self):
-        self.pub = rospy.Publisher('sdp_ros_fib',
+        self.pub = rospy.Publisher('ros_sdp_fib',
                                    String,
                                    queue_size=10)
         self.counter = 1

@@ -4,7 +4,7 @@ import rospy
 from ros_sdp.sdp_publisher import SDPPublisher
 
 def main():
-    rospy.init_node("spd_ros_pub")
+    rospy.init_node("ros_sdp_pub")
     pub = SDPPublisher()
     while not rospy.is_shutdown():
         pub.step()
