@@ -18,7 +18,7 @@ class SDPPublisher(object):
 
     def step(self):
         nfib = fib(self.counter)
-        self.pub(String("Fibonacci number #%d = %d" % (self.counter,
+        self.pub.publish(String("Fibonacci number #%d = %d" % (self.counter,
                                                        nfib)))
         self.counter += 1
         self.r.sleep()

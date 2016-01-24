@@ -7,3 +7,6 @@ def main():
     rospy.init_node("ros_sdp_sub")
     sub = SDPSubscriber()
     rospy.spin()
+
+if __name__ == "__main__":
+    main()
