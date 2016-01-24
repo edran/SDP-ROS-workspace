@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+  <name>ros_sdp</name>
+  <version>1.0.0</version>
+  <description>
+    SDP example package
+  </description>
+
+  <maintainer email="n.nardelli@sms.ed.ac.uk">
+    Nantas Nardelli
+  </maintainer>
+  <license>MIT</license>
+  <url type="website">
+    https://github.com/edran/ros_sdp
+  </url>
+  <url type="repository">
+    https://github.com/ipab-rad/baxter_myo
+  </url>
+  <url type="bugtracker">
+    https://github.com/edran/ros_sdp/issues
+  </url>
+  <author>Nantas Nardelli</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>cv_bridge</run_depend>
+</package>
