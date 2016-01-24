@@ -22,12 +22,3 @@ class SDPPublisher(object):
                                                        nfib)))
         self.counter += 1
         self.r.sleep()
-
-
-def main():
-    pub = SDPPublisher()
-    while not rospy.is_shutdown():
-        pub.step()
-
-if __name__ == "__main__":
-    main()
